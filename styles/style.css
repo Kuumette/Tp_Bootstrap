@@ -1,0 +1,41 @@
+* {
+	font-family: "Potta One", cursive;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+	display: flex;
+	justify-content: center;
+}
+
+body {
+	background: rgb(70, 69, 69);
+}
+#logo {
+	width: 5%;
+}
+
+section h1 {
+	background: rgba(221, 218, 218, 0.123);
+	margin-bottom: auto 0;
+	text-align: center;
+	box-shadow: 10px 5px 10px rgba(255, 255, 255, 0.295);
+}
+nav {
+	background: rgba(221, 218, 218, 0.123);
+}
+#carouselExampleIndicators img {
+	border: 2px solid rgb(87, 86, 86);
+	box-shadow: 10px 5px 10px rgba(255, 255, 255, 0.295);
+}
+@media (max-width: 500px) {
+	#carouselExampleIndicators {
+		display: none;
+	}
+}
+@media (min-width: 500px) {
+	#image {
+		display: none;
+	}
+}

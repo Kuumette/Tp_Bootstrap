@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap"
+			rel="stylesheet"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/bootstrap.min.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<script src="./styles/bootstrap.min.js" defer></script>
+		<title>Document</title>
+	</head>
+	<header>
+		<nav
+			class="navbar navbar-expand-md navbar-dark"
+			aria-label="Notre super barre de nav"
+		>
+			<div class="container-fluid">
+				<a class="navbar-brand w-2" href="#"> </a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarsExample04"
+					aria-controls="navbarsExample04"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- pas toucher -->
+				<div class="collapse navbar-collapse" id="navbarsExample04">
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a
+								class="nav-link disabled me-5"
+								aria-current="page"
+								href="./index.html"
+								>Acceuil</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link me-5" href="./galerie.html"
+								>Galerie</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link me-5" href="#"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<body>
+		<figure id="image" class="row justify-content-around">
+			<img
+				class="col-md-4 m-2 rounded-circle"
+				src="./ressources/image1.jpg"
+				alt=""
+			/>
+		</figure>
+		<div
+			id="carouselExampleIndicators"
+			class="carousel slide"
+			data-bs-ride="carousel"
+		>
+			<ol class="carousel-indicators">
+				<li
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide-to="0"
+					class="active"
+				></li>
+				<li
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide-to="1"
+				></li>
+				<li
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide-to="2"
+				></li>
+			</ol>
+			<div class="carousel-inner" id="carou">
+				<div class="carousel-item active">
+					<img
+						src="./ressources/image1.jpg"
+						class="d-block w-50 rounded-circle"
+						alt="..."
+					/>
+				</div>
+				<div class="carousel-item">
+					<img
+						src="./ressources/image2.jpg"
+						class="d-block w-50 rounded-circle"
+						alt="..."
+					/>
+				</div>
+				<div class="carousel-item">
+					<img
+						src="./ressources/image3.jpg"
+						class="d-block w-50 rounded-circle"
+						alt="..."
+					/>
+				</div>
+			</div>
+			<a
+				class="carousel-control-prev"
+				href="#carouselExampleIndicators"
+				role="button"
+				data-bs-slide="prev"
+			>
+				<span
+					class="carousel-control-prev-icon"
+					aria-hidden="true"
+				></span>
+				<span class="visually-hidden">Previous</span>
+			</a>
+			<a
+				class="carousel-control-next"
+				href="#carouselExampleIndicators"
+				role="button"
+				data-bs-slide="next"
+			>
+				<span
+					class="carousel-control-next-icon"
+					aria-hidden="true"
+				></span>
+				<span class="visually-hidden">Next</span>
+			</a>
+		</div>
+
+		<section class="container">
+			<div class="row justify-content-center">
+				<h1 class="col-md-6 m-3 col-8 rounded-circle">Définition</h1>
+				<p class="col-md-12 m-3 col-10">
+					Cette répétition sans limitation conduit à l'intuition
+					première d'un indéfini sans fin : c'est l'infini potentiel,
+					faculté d'aller toujours un peu plus loin. Il est
+					naturellement lié à la notion de successeur d'un entier
+					naturel : 1, 2, 3, etc. À un nombre succède toujours un
+					autre nombre, et il n'en existe pas de dernier, car ce
+					dernier nombre a un successeur. C'est le principe de la
+					récurrence, processus fondamental générateur de l'infini
+					potentiel. Mais alors, énoncer le 2 préfigure déjà l'infini
+					potentiel. Car 2 = 1 + 1, et rien n'empêche d'écrire ensuite
+					2 + 1 = 3, 3 + 1 = 4, ad infinitum. Un c'est l'unité ; deux
+					c'est déjà le divers, la multiplicité. Si 2 implique déjà
+					l'infini, cela signifie-t-il que la multiplicité, le divers,
+					sont eux-mêmes potentiellement infinis ? On le voit, le
+					problème de l'infini concerne autant la philosophie (et la
+					théologie, l'art, l'éthique...) que les sciences de la
+					nature. Encore faudra-t-il distinguer entre les sciences de
+					l'univers, les sciences de la matière et les sciences du
+					nombre, c'est-à-dire les mathématiques.
+				</p>
+			</div>
+		</section>
+	</body>
+</html>
